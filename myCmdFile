@@ -39,6 +39,12 @@ $git log
 $cat fileName.extension
     --prints out file data
 
+$git config --global core.editor "'Address/of/text/editor.exe' -w"
+    --changes text editor of git
+
+$git config --list
+    --lists all the details of config settings of the user
+
 
 
 
