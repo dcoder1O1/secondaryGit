@@ -1,0 +1,2 @@
+git is an offline system and github is a place
+to host your repositories online
