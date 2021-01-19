@@ -71,5 +71,8 @@ $git merge branchName
 **if you edit file in branch again then you again need to commit in branch and then merge with master
 
 $git rebase branchName
-    --merges everything in the repo and puts all branches timeline into one single line where branches are set before master or after depending on logs
+    --merges everything in the repo and puts all branches in a timeline type format
+    -+-if you rebase (in master) -->> "$git rebase firstBranch" then firstBranch is set upon master and rebase is formed
+    -+-if you rebase (in branch) -->> "$git rebase master" then same as above should be formed
+
 
