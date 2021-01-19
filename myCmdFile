@@ -11,6 +11,12 @@ $git remote add origin "Github Repo Link.git"
 $git pull origin main
     -- creates a repo of all files in the local machine
 
+$git clone linkFromGithub
+    --clones the repo locally adn installs it on machine
+
+
+
+
 ================ when you modify files in local machine and want git to track it
 
 $git add filename.extension
@@ -22,8 +28,8 @@ $git add -A
 $git reset fileName.extension
     --removes the added file from committing and hence, file is not tracked anymore
 
-$git commit -m "title message" -m "complete descriptive message"
-    --commits to the git tracking of your new file and adds message to describe changes
+$git commit -m "title message" -m "complete descriptive message" fileName
+    --commits to the git tracking of your new file (fileName) and adds message to describe changes
 OR
 $git commit -a -m "title message of commiting all files in folder" -m "descriptive message of the all commit command"
     --commits all files to the git tracking
@@ -75,4 +81,8 @@ $git rebase branchName
     -+-if you rebase (in master) -->> "$git rebase firstBranch" then firstBranch is set upon master and rebase is formed
     -+-if you rebase (in branch) -->> "$git rebase master" then same as above should be formed
 
+================= push
+
+$git push -u origin master/main
+    --pushes to github repo
 
