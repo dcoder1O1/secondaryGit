@@ -28,13 +28,17 @@ OR
 $git commit -a -m "title message of commiting all files in folder" -m "descriptive message of the all commit command"
     --commits all files to the git tracking
 
-================= to check or see history of the changes
+================= general commands
 
 $git status
     --shows if there are new files not tracked by git or if files already tracked are modified and need to be updated
 
 $git log
     --shows all your commits with messages and date/time and other details
+
+$cat fileName.extension
+    --prints out file data
+
 
 
 
@@ -51,5 +55,11 @@ $git add featureForBranchOnlyFile.extension
 
 $git commit -m "Branch File Changes"
     --commits to branch only and is visible to branch only
+
+++++++ merging branches (execute in master)
+
+$git merge branchName
+    --merges your branch to the master branch but branch still remains
+
 
 
