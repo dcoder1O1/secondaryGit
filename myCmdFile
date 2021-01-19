@@ -19,6 +19,9 @@ OR
 $git add -A
     --adds all untracked or modified files to git tracking
 
+$git reset fileName.extension
+    --removes the added file from committing and hence, file is not tracked anymore
+
 $git commit -m "title message" -m "complete descriptive message"
     --commits to the git tracking of your new file and adds message to describe changes
 OR
