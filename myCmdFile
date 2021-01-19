@@ -25,3 +25,28 @@ OR
 $git commit -a -m "title message of commiting all files in folder" -m "descriptive message of the all commit command"
     --commits all files to the git tracking
 
+================= to check or see history of the changes
+
+$git status
+    --shows if there are new files not tracked by git or if files already tracked are modified and need to be updated
+
+$git log
+    --shows all your commits with messages and date/time and other details
+
+
+
+================= branching
+
+$git branch branchName
+    --makes a branch that inherits tracking of all files of main branch but can have files of its own that dont show up in main branch
+
+$git checkout branchName
+    --goes to branch file and tracking system
+
+$git add featureForBranchOnlyFile.extension
+    --adds file and tracking and logging to branchName only and not main
+
+$git commit -m "Branch File Changes"
+    --commits to branch only and is visible to branch only
+
+
