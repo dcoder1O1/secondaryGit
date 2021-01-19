@@ -1,0 +1,27 @@
+Commands :
+
+================ when you put repo from online to local machine
+
+$git init
+    -- adds a git tracking file to the
+
+$git remote add origin "Github Repo Link.git"
+    -- adds the linking of online repo from github to remote machine
+
+$git pull origin main
+    -- creates a repo of all files in the local machine
+
+================ when you modify files in local machine and want git to track it
+
+$git add filename.extension
+    --adds the new file you wanted to track
+OR
+$git add -A
+    --adds all untracked or modified files to git tracking
+
+$git commit -m "title message" -m "complete descriptive message"
+    --commits to the git tracking of your new file and adds message to describe changes
+OR
+$git commit -a -m "title message of commiting all files in folder" -m "descriptive message of the all commit command"
+    --commits all files to the git tracking
+
