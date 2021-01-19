@@ -61,5 +61,6 @@ $git commit -m "Branch File Changes"
 $git merge branchName
     --merges your branch to the master branch but branch still remains
 
-
+**you may require commit to finalize the merging of brnaches but its just regular commit to track new file in master
+**if you edit file in branch again then you again need to commit in branch and then merge with master
 
