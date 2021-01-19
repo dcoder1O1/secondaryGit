@@ -70,3 +70,6 @@ $git merge branchName
 **you may require commit to finalize the merging of brnaches but its just regular commit to track new file in master
 **if you edit file in branch again then you again need to commit in branch and then merge with master
 
+$git rebase branchName
+    --merges everything in the repo and puts all branches timeline into one single line where branches are set before master or after depending on logs
+
